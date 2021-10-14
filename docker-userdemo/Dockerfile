@@ -24,6 +24,6 @@ USER normaluser
 # stel de WORKDIR in, vanaf nu worden alle commando's uitgevoerd in deze directory
 WORKDIR /home/normaluser
 # maak een lege file aan als normaluser
-RUN touch Welocme.txt
+RUN touch Welcome.txt
 # run het ping commando als normaluser
 CMD ping -c10 8.8.8.8
